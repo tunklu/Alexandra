@@ -7,6 +7,7 @@ def compare_number(in_string):
             index += 2
         else:
             result_string += in_string[index]
+            index += 1
     return (result_string)
 
 
